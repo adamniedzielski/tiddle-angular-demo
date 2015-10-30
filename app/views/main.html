@@ -1,0 +1,20 @@
+<h1>
+  Log in
+</h1>
+
+<input type="email" ng-model="user.email"/>
+<input type="password" ng-model="user.password"/>
+<input type="submit" value="Log in" ng-click="login()"/>
+<input type="submit" value="Log out" ng-click="logout()"/>
+<h1>
+  Get posts
+</h1>
+
+<input type="submit" value="Click" ng-click="getPosts()"/>
+
+<h1>
+  Response
+</h1>
+<pre>
+  {{response}}
+</pre>
